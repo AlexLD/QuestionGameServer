@@ -1,0 +1,32 @@
+{
+  "name": "sfcc-game-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.local.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Du",
+  "license": "ISC",
+  "dependencies": {
+    "aws-serverless-express": "^3.3.5",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "mongodb": "^3.1.6",
+    "node-cache": "^4.2.0",
+    "nodemailer": "^4.6.8",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "querystring": "^0.2.0",
+    "socket.io": "^2.1.1",
+    "socketio-jwt-auth": "0.0.6"
+  },
+  "devDependencies": {
+    "claudia": "^5.1.2"
+  }
+}
