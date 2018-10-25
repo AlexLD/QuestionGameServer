@@ -4,8 +4,8 @@ const connectToDb = require('./mongodb');
 let transporter = nodemailer.createTransport({
     service:'gmail',
     auth:{
-        user:'sfcc.game.signup@gmail.com',
-        pass:'gameforstudents'
+        user: process.env.EMAIL,
+        pass: process.env.EMAIL_PASSWORD,
     }
 });
 
